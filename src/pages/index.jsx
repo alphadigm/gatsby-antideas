@@ -9,7 +9,9 @@ import mixpanel from 'mixpanel-browser'
 
 const PageContent = () => (
     <Layout>
-        <Seo />
+        <Seo>
+            <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+        </Seo>
         <Parallax>
             <Container sx={{
                 minWidth: `100%`,
